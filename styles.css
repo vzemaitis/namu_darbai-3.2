@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     background-color: aquamarine;
@@ -44,12 +42,29 @@ body {
     display: block;
 }
 
-.pirmoji {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: -300px;
-    justify-content: space-between;
+.gridas {
+    display: grid;
+    height: 600px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    row-gap: 80px;
+    background-color: #2196F3;
+    padding: 20px;
+  }
+
+.produktas1, .produktas2, .produktas3 {
+    background-color: white;
+    text-align: center;
+    height: 80px;
+    padding: 10px;
+    margin-top: -50px;
+}
+
+.produktas4, .produktas5, .produktas6 {
+    background-color: white;
+    text-align: center;  
+    height: 80px;
+    padding: 10px;
     
 }
 
@@ -66,10 +81,26 @@ body {
     display: block; 
 }
 
+.produktas1 h2 {
+    margin-top: 10px;
+}
+
+.produktas1 h3 {
+    margin-top: -10px;
+}
+
 .produktas2 {
     float:left;
     width:180px;
     height:160px;
+}
+
+.produktas2 h2 {
+    margin-top: 10px;
+}
+
+.produktas2 h3 {
+    margin-top: -10px;
 }
 
 .produktas2 img {
@@ -85,6 +116,14 @@ body {
     height:160px;
 }
 
+.produktas3 h2 {
+    margin-top: 10px;
+}
+
+.produktas3 h3 {
+    margin-top: -10px;
+}
+
 .produktas3 img {
     max-width: 100%;
     max-height: 100%;
@@ -92,18 +131,18 @@ body {
     display: block; 
 }
 
-.antroji {
-    position: fixed;
-    top: 10%;
-    left: 50%;
-    margin-left: -300px;
-    
-}
-
 .produktas4 {
     float:left;
     width:180px;
     height:160px;
+}
+
+.produktas4 h2 {
+    margin-top: 10px;
+}
+
+.produktas4 h3 {
+    margin-top: -10px;
 }
 
 .produktas4 img {
@@ -119,6 +158,14 @@ body {
     height:160px;
 }
 
+.produktas5 h2 {
+    margin-top: 10px;
+}
+
+.produktas5 h3 {
+    margin-top: -10px;
+}
+
 .produktas5 img {
     max-width: 100%;
     max-height: 100%;
@@ -130,6 +177,14 @@ body {
     float:right;
     width:180px;
     height:160px;
+}
+
+.produktas6 h2 {
+    margin-top: 10px;
+}
+
+.produktas6 h3 {
+    margin-top: -10px;
 }
 
 .produktas6 img {
