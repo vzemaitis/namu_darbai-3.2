@@ -200,10 +200,8 @@ body {
 }
 
 button {
-    background-color: gray;
+    background-color: rgb(185, 185, 185);
     border-style: groove;
     padding: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
-
-
