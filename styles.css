@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: aquamarine;
+}
+
 .float-container {
     padding: 3px;
 }
@@ -15,6 +19,7 @@
 {
     height: 20px;
     width: 20px;  
+    margin-left: 30px;
 }
 
 .s4logo img
@@ -29,6 +34,7 @@
     height: 20px;
     width: 60px;
     float: right;
+    margin-right: 30px;
 }
 
 .sociallogo img {
@@ -39,8 +45,12 @@
 }
 
 .pirmoji {
-    width:600px;
-    height:190px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    justify-content: space-between;
+    
 }
 
 .produktas1 {
@@ -83,8 +93,11 @@
 }
 
 .antroji {
-    width:600px;
-    height:190px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    margin-left: -300px;
+    
 }
 
 .produktas4 {
