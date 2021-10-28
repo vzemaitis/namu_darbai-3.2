@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: aquamarine;
+    background-color: white;
 }
 
 .float-container {
@@ -48,8 +48,8 @@ body {
     align-content: space-evenly;
     grid-template-columns: auto auto auto;
     row-gap: 80px;
-    background-color: #2196F3;
     padding: 20px;
+    margin-left: 15%;
   }
 
 .produktas1, .produktas2, .produktas3 {
