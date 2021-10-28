@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.float-container {
+    padding: 3px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+}
+
+.s4logo
+{
+    height: 20px;
+    width: 20px;  
+}
+
+.s4logo img
+{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.sociallogo {
+    height: 20px;
+    width: 60px;
+    float: right;
+}
+
+.sociallogo img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
