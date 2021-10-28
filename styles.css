@@ -38,3 +38,52 @@
     display: block;
 }
 
+.pirmoji {
+    width:600px;
+    height:190px;
+}
+
+.produktas1 {
+    float:left;
+    width:180px;
+    height:160px;
+}
+
+.produktas1 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block; 
+}
+
+.produktas2 {
+    float:left;
+    width:180px;
+    height:160px;
+}
+
+.produktas2 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block; 
+}
+
+.produktas3 {
+    float:right;
+    width:180px;
+    height:160px;
+}
+
+.produktas3 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block; 
+}
+
+
+
+
+
+
