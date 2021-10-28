@@ -49,7 +49,6 @@ body {
     grid-template-columns: auto auto auto;
     row-gap: 80px;
     padding: 20px;
-    margin-left: 15%;
   }
 
 .produktas1, .produktas2, .produktas3 {
@@ -87,6 +86,7 @@ body {
 
 .produktas1 h3 {
     margin-top: -10px;
+    color: tomato;
 }
 
 .produktas2 {
@@ -101,6 +101,7 @@ body {
 
 .produktas2 h3 {
     margin-top: -10px;
+    color: tomato;
 }
 
 .produktas2 img {
@@ -122,6 +123,7 @@ body {
 
 .produktas3 h3 {
     margin-top: -10px;
+    color: tomato;
 }
 
 .produktas3 img {
@@ -143,6 +145,7 @@ body {
 
 .produktas4 h3 {
     margin-top: -10px;
+    color: tomato;
 }
 
 .produktas4 img {
@@ -164,6 +167,7 @@ body {
 
 .produktas5 h3 {
     margin-top: -10px;
+    color: tomato;
 }
 
 .produktas5 img {
@@ -185,6 +189,7 @@ body {
 
 .produktas6 h3 {
     margin-top: -10px;
+    color: tomato;
 }
 
 .produktas6 img {
@@ -194,6 +199,11 @@ body {
     display: block; 
 }
 
-
+button {
+    background-color: gray;
+    border-style: groove;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
 
 
