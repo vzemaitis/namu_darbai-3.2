@@ -1,92 +1,57 @@
 
 
-body {
+body, nav {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
-.float-container {
-    padding: 3px;
-}
-
-.float-child {
-    width: 50%;
-    float: left;
+nav {
+background-color: rgb(170, 170, 170);
+padding: 5px;
+text-align: center;
+width: 100%;
 }
 
 .s4logo
 {
     height: 20px;
-    width: 20px;  
-    margin-left: 30px;
-}
-
-.s4logo img
-{
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block;
+    width: 20px;
 }
 
 .sociallogo {
     height: 20px;
     width: 60px;
-    float: right;
-    margin-right: 30px;
 }
 
-.sociallogo img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block;
+nav li {
+    width: 20%;
+    display: inline-block;
 }
+
+nav li a {
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 20px;
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 
 .gridas {
     display: grid;
-    height: 600px;
-    align-content: space-evenly;
-    grid-template-columns: auto auto auto;
-    row-gap: 80px;
-    padding: 20px;
-    position: relative;
-    max-width: 3000px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+    max-width: 1800px;
     width: 100%;
-    white-space: nowrap;
+    margin: 0 auto;
   }
 
-.produktas1, .produktas2, .produktas3 {
-    background-color: white;
-    text-align: center; 
-    height: 80px;
-    padding: 10px;
-    margin-top: -50px;
-    width: 33.33%;
-    display: inline-block;
-
-}
-
-.produktas4, .produktas5, .produktas6 {
-    background-color: white; 
-    text-align: center; 
-    height: 80px;
-    padding: 10px;
-    width: 33.33%;
-    display: inline-block;
-}
-
-.produktas1 {
-    float:left;
-    width:180px;
-    height:160px;
-}
-
-.produktas1 img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block; 
-}
 
 .produktas1 h2 {
     margin-top: 10px;
@@ -97,11 +62,13 @@ body {
     color: tomato;
 }
 
-.produktas2 {
-    float:left;
-    width:180px;
-    height:160px;
+.produktas1 img {
+    width: 100%;
+    max-width: 80px;
+    height: 100%;
+    max-height: 80px;
 }
+
 
 .produktas2 h2 {
     margin-top: 10px;
@@ -113,17 +80,12 @@ body {
 }
 
 .produktas2 img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block; 
+    width: 100%;
+    max-width: 80px;
+    height: 100%;
+    max-height: 80px;
 }
 
-.produktas3 {
-    float:right;
-    width:180px;
-    height:160px;
-}
 
 .produktas3 h2 {
     margin-top: 10px;
@@ -135,17 +97,12 @@ body {
 }
 
 .produktas3 img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block; 
+    width: 100%;
+    max-width: 80px;
+    height: 100%;
+    max-height: 80px; 
 }
 
-.produktas4 {
-    float:left;
-    width:180px;
-    height:160px;
-}
 
 .produktas4 h2 {
     margin-top: 10px;
@@ -157,17 +114,12 @@ body {
 }
 
 .produktas4 img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block; 
+    width: 100%;
+    max-width: 80px;
+    height: 100%;
+    max-height: 80px;
 }
 
-.produktas5 {
-    float:left;
-    width:180px;
-    height:160px;
-}
 
 .produktas5 h2 {
     margin-top: 10px;
@@ -179,17 +131,12 @@ body {
 }
 
 .produktas5 img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block; 
+    width: 100%;
+    max-width: 80px;
+    height: 100%;
+    max-height: 80px;
 }
 
-.produktas6 {
-    float:right;
-    width:180px;
-    height:160px;
-}
 
 .produktas6 h2 {
     margin-top: 10px;
@@ -201,10 +148,10 @@ body {
 }
 
 .produktas6 img {
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    display: block; 
+    width: 100%;
+    max-width: 80px;
+    height: 100%;
+    max-height: 80px;
 }
 
 button {
