@@ -11,6 +11,9 @@ nav {
     padding: 5px 0;
     text-align: center;
     width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .s4logo
@@ -50,7 +53,6 @@ nav ul {
     width: 100%;
     margin: auto;
     text-align: center;
-    margin-top: 0px;
     position: relative;
     background-color: white;
   }
