@@ -49,7 +49,9 @@ nav ul {
     grid-auto-rows: 350px;
     max-width: 1800px;
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
   }
 
 
