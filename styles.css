@@ -7,10 +7,10 @@ body, nav {
 }
 
 nav {
-background-color: rgb(170, 170, 170);
-padding: 5px 0;
-text-align: center;
-width: 100%;
+    background-color: rgb(170, 170, 170);
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
 }
 
 .s4logo
@@ -42,8 +42,6 @@ nav ul {
     margin: 0 auto;
 }
 
-
-
 .gridas {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -56,218 +54,32 @@ nav ul {
     position: relative;
   }
 
-.produktas1 {
+.produktas1, .produktas2, .produktas3, .produktas4, .produktas5, .produktas6 {
     border-style: solid;
     border-radius: 25px;
     margin: 20px 15%;
     position: relative;
 }
 
-.produktas1 h2 {
+.produktas1 h2, .produktas2 h2, .produktas3 h2, .produktas4 h2, .produktas5 h2, .produktas6 h2 {
     margin-top: 10px;
     font-size:calc(12px + 1vw);
 }
 
-.produktas1 h3 {
+.produktas1 h3, .produktas2 h3, .produktas3 h3, .produktas4 h3, .produktas5 h3, .produktas6 h3 {
     margin-top: -1vw;
     color: tomato;
     font-size:calc(13px + 0.7vw);
 }
 
-.produktas1 img {
+.produktas1 img, .produktas2 img, .produktas3 img, .produktas4 img, .produktas5 img, .produktas6 img {
     width: 100%;
     max-width: 80px;
     height: 100%;
     max-height: 120px;
 }
 
-.p1button {
-    margin: 0;
-    position: absolute;
-    top: 91%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    max-width: 120px;
-    width: 100%;
-}
-
-
-
-.produktas2 {
-    border-style: solid;
-    border-radius: 20px;
-    margin: 20px 15%;
-    position: relative;
-}
-
-.produktas2 h2 {
-    margin-top: 10px;
-    font-size:calc(12px + 1vw);
-}
-
-.produktas2 h3 {
-    margin-top: -1vw;
-    color: tomato;
-    font-size:calc(13px + 0.7vw);
-}
-
-.produktas2 img {
-    width: 100%;
-    max-width: 80px;
-    height: 100%;
-    max-height: 120px;
-}
-
-.p2button {
-    margin: 0;
-    position: absolute;
-    top: 91%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    max-width: 120px;
-    width: 100%;
-}
-
-
-.produktas3 {
-    border-style: solid;
-    border-radius: 25px;
-    margin: 20px 15%;
-    position: relative;
-}
-
-.produktas3 h2 {
-    margin-top: 10px;
-    font-size:calc(12px + 1vw);
-}
-
-.produktas3 h3 {
-    margin-top: -1vw;
-    color: tomato;
-    font-size:calc(13px + 0.7vw);
-}
-
-.produktas3 img {
-    width: 100%;
-    max-width: 80px;
-    height: 100%;
-    max-height: 120px;
-}
-
-.p3button {
-    margin: 0;
-    position: absolute;
-    top: 91%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    max-width: 120px;
-    width: 100%;
-}
-
-
-.produktas4 {
-    border-style: solid;
-    border-radius: 25px;
-    margin: 20px 15%;
-    position: relative;
-}
-
-.produktas4 h2 {
-    margin-top: 10px;
-    font-size:calc(12px + 1vw);
-}
-
-.produktas4 h3 {
-    margin-top: -1vw;
-    color: tomato;
-    font-size:calc(13px + 0.7vw);
-}
-
-.produktas4 img {
-    width: 100%;
-    max-width: 80px;
-    height: 100%;
-    max-height: 120px;
-}
-
-.p4button {
-    margin: 0;
-    position: absolute;
-    top: 91%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    max-width: 120px;
-    width: 100%;
-}
-
-
-.produktas5 {
-    border-style: solid;
-    border-radius: 25px;
-    margin: 20px 15%;
-    position: relative;
-}
-
-.produktas5 h2 {
-    margin-top: 10px;
-    font-size:calc(12px + 1vw);
-}
-
-.produktas5 h3 {
-    margin-top: -1vw;
-    color: tomato;
-    font-size:calc(13px + 0.7vw);
-}
-
-.produktas5 img {
-    width: 100%;
-    max-width: 80px;
-    height: 100%;
-    max-height: 120px;
-}
-
-.p5button {
-    margin: 0;
-    position: absolute;
-    top: 91%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    max-width: 120px;
-    width: 100%;
-}
-
-
-.produktas6 {
-    border-style: solid;
-    border-radius: 25px;
-    margin: 20px 15%;
-    position: relative;
-}
-
-.produktas6 h2 {
-    margin-top: 10px;
-    font-size:calc(12px + 1vw);
-}
-
-.produktas6 h3 {
-    margin-top: -1vw;
-    color: tomato;
-    font-size:calc(13px + 0.7vw);
-}
-
-.produktas6 img {
-    width: 100%;
-    max-width: 80px;
-    height: 100%;
-    max-height: 120px;
-}
-
-.p6button {
+.p1button, .p2button, .p3button, .p4button, .p5button, .p6button {
     margin: 0;
     position: absolute;
     top: 91%;
