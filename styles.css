@@ -62,11 +62,13 @@ nav ul {
 
 .produktas1 h2 {
     margin-top: 10px;
+    font-size: 1.6vw;
 }
 
 .produktas1 h3 {
     margin-top: -10px;
     color: tomato;
+    font-size: 1vw;
 }
 
 .produktas1 img {
@@ -196,5 +198,6 @@ button {
     background-color: rgb(185, 185, 185);
     border-style: groove;
     padding: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.6vw;
 }
