@@ -54,12 +54,10 @@ nav ul {
     margin: auto;
     text-align: center;
     position: relative;
-    background-color: white;
+    background-color: white
   }
 
 .produktas1, .produktas2, .produktas3, .produktas4, .produktas5, .produktas6 {
-    border-style: solid;
-    border-radius: 25px;
     margin: 20px 15%;
     position: relative;
 }
@@ -112,18 +110,20 @@ footer {
     text-align: center;
     margin-top: 80px;
     position: relative;
-    background-color: white;
+    background-color: rgb(206, 206, 206);
 }
 
 .produktas1f, .produktas2f, .produktas3f {
-    border-style: solid;
-    border-radius: 25px;
+    border-style: inset;
+    border-radius: 1px;
     margin: 20px 15%;
     position: relative;
+    background-color: white
+    
 }
 
 .produktas1f p, .produktas2f p, .produktas3f p {
-    margin-top: -1vw;
+    margin-top: -0.9vw;
     color: black;
     font-size: 15px;
     word-wrap: flex;
@@ -134,4 +134,24 @@ footer {
     max-width: 80px;
     height: 100%;
     max-height: 120px;
+}
+
+.produktas1f h2, .produktas2f h2, .produktas3f h2 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.produktas1f h3, .produktas2f h3, .produktas3f h3 {
+    float: left;
+    margin-left: 5%;
+    margin-top: auto;
+    color: rgb(74, 127, 241);
+}
+
+.p1buttonf, .p2buttonf, .p3buttonf {
+    float: right;
+    margin-right: 5%;
+    margin-top: auto;
+    background-color: rgb(74, 127, 241);
+    color: white;
 }
